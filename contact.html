@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Digital Agency based in Sydney Australia since 2014 specialized in CMS and responsive Web Design and Development">
+    <meta name="keywords" content="Web Design, Web Developers, CMS, Sydney, Mobile Sites, Responsive websites">
+    <meta name="author" content="Andres Hernandez">
+    
+    <!-- Title and Icon -->
+    <title>Create 2 Grow</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="resources/images/icons/leaf-top.ico">
+   	
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>    
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+    <style>
+		@font-face {
+			font-family: "Myfont";
+			src: url('resources/fonts/Avant Garde Book Bt.ttf') format("truetype");
+		}
+		
+		/* --- HTML rules --- */
+		body {
+			background-color:#F0F0F0;
+			color:#0000;
+			
+			font-family:'Myfont', Arial;
+			font-size:14px;
+			height:auto;
+			
+		}
+		
+		a{
+			text-decoration:none;
+			border:0;
+			color:inherit;
+			
+		}
+		
+		#top-header{
+			background-color:#000;
+		}
+		
+		.breadcrumb{ background-color:#000; color:#FFF; }
+		.page-header{ margin: 0; padding-top:10px; padding-bottom:10px; }
+		.navbar { margin: 0; }
+		
+		
+	</style>    
+  </head>
+
+  <body>
+  	<div id="top-header">
+        <!-- navbar collapse -->
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About us</a></li>
+                        <li><a href="index.html#services">Our Services</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <!--li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Our work <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="editorial.html">Editorial</a></li>
+                                <li><a href="intellectual.html">Intellectual</a></li>
+                                <li><a href="marketing.html">Marketing</a></li>
+                                <li><a href="design.html">Design</a></li>
+                            </ul>
+                        </li-->
+                        <li><a href="index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Contact Us</li>
+        </ol>
+    </div>
+	<!-- header logo -->
+    <div class="page-header">
+        <div class="container"> 
+            <a href="http://www.create2grow.com.au/"><img class="img-responsive" src="resources/images/logos/top_logo.png"/></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-6 col-md-6">
+            <div id="title">Feel free to fill the information above and we will get back to you as soon as possible.</div>
+            <br>
+            <form action="confirmEmail.asp" method="post">
+                <label for="Subject">Name:</label><br>
+                <input type="text" name="Subject" placeholder="your name" required><br>
+                <label for="From">eMail:</label><br>
+                <input type="email" name="From" placeholder="your email" required><br>
+                <label for="Body">Message:</label><br>
+                <textarea name="Body" cols="40" rows="5" placeholder="your comment" required ></textarea><br>
+                <input type="submit" class="btn btn-lg btn-default" value="Send">
+                <input type="reset" class="btn btn-lg btn-default"value="Reset">
+            </form>
+		</div>
+		<div class="col-lg-6 col-md-6">
+            <p>&nbsp;</p>
+            <ul class="list-unstyled">
+                <li><p>                    
+                    <img class="footer-contact-img" src="resources/images/icons/address-icon.png" >
+                    <strong> Address:</strong> 7/2 Miller St. North Sydney NSW 2060</p>
+                </li>
+                <li><p>                    
+                    <img class="footer-contact-img" src="resources/images/icons/email-icon.png" >
+                    <strong> Email:</strong><a href="mailto:info@create2grow.com.au"> info@create2grow.com.au</a></p>
+                </li>
+                <li><p>                    
+                    <img class="footer-contact-img" src="resources/images/icons/phone-icon.png" >
+                    <strong> Phone:</strong> <a href="tel:+61424551701"> +61 424 551 701</a></p>
+                </li>
+                <li><p>                    
+                    <img class="footer-contact-img" src="resources/images/icons/facebook-icon.png" >
+                    <strong> Facebook:</strong> <a href="#"> /Create2grow</a></p>
+                </li>
+                <li><p>                    
+                    <img class="footer-contact-img" src="resources/images/icons/twitter-icon.png" >
+                    <strong> Twitter:</strong> <a href="#"> @Create2grow</a></p>
+                </li>
+            </ul>
+        </div>
+
+    </div>   
+  </body>
+
+</html>

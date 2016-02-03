@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+	@font-face {
+		font-family: "Myfont";
+		src: url('resources/fonts/Avant Garde Book Bt.ttf') format("truetype");
+	}
+	
+	/* --- HTML rules --- */
+	
+	body {
+		background-color:#F0F0F0;
+		color:#FFF;
+		
+		font-family:'Myfont', Arial;
+		font-size:14px;
+		height:auto;
+		
+	}
+	
+	a{
+		text-decoration:none;
+		border:0;
+		color:inherit;
+		
+	}
+	
+	h3{
+		font-family:'Myfont';
+		font-weight:bold;
+		color:#95C11F;
+	}
+	
+	
+	/* --- ID objects --- */
+	
+	#header-top{
+		padding-top:20px;
+		color:#000;
+	}
+	
+	#cont-main{
+		background-image: url('Resources/Images/Background/bg.jpg');
+		background-position: center center;
+		background-repeat:no-repeat;
+		background-color:#000;
+		background-size:auto;
+		
+		width:100%;
+		padding:0;
+		margin:0;
+		
+	}
+	
+	#myCarousel{
+		height:400px;
+		width:100%;
+	}
+	
+	#cont-banner{
+		background-color:#3B9E91;
+		min-height:100px;
+		height: auto;
+	}
+	
+	#banner-msg{
+		background-color:#3B9E91;
+		padding-top: 30px;
+		line-height: 40px;
+		font-weight: 300;
+		font-size: 25px;
+	}
+	
+	#cont-info{
+		background-color:#FFF;
+		color:#000;
+		
+		padding-top:20px;
+		width:100%;
+	}
+	
+	#info-resume{
+		padding-top:20px;
+		min-height:200px;
+		height:auto;
+	}
+	
+	.btn-wht{
+		background-color:transparent;
+		color:#000;
+	}
+	
+	#info-services{
+		padding-top:40px;
+		margin-bottom:20px;
+		min-height:400px;
+		height:auto;
+	}
+	
+	.info-icons{
+		min-height:100px;
+		min-width:100px;
+	}
+	
+	.icon-responsive{
+		background-image: url("resources/images/icons/responsive.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-responsive:hover{
+		background-image: url("resources/images/icons/responsive_on.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-design{
+		background-image: url("resources/images/icons/design.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-design:hover{
+		background-image: url("resources/images/icons/design_on.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	
+	.icon-develop{
+		background-image: url("resources/images/icons/develop.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-develop:hover{
+		background-image: url("resources/images/icons/develop_on.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-marketing{
+		background-image: url("resources/images/icons/marketing.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-marketing:hover{
+		background-image: url("resources/images/icons/marketing_on.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-wordpress{
+		background-image: url("resources/images/icons/wordpress.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	.icon-wordpress:hover{
+		background-image: url("resources/images/icons/wordpress_on.png");
+		background-repeat:no-repeat;
+		background-position:top center;
+		background-size:100px 100px;
+	}
+	
+	#info-btns{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	
+	#cont-work{
+		background-color:#F0F0F0;
+		color:#000;
+		
+		padding-bottom:20px;
+		padding-top:20px;
+		width:100%;
+	}
+	
+	
+	#footer{
+		background-color:#171717;
+		position:relative;
+		min-height:200px;
+		font-size:12px;
+		height:auto;
+		width:100%;
+		
+
+	}
+	
+	#footer-cr{
+		background-color:#000;
+		text-align:center;
+		margin-right:auto;
+		margin-left:auto;
+		height:60px;
+		width:100%
+	}
+	
+	#footer-cr p{
+		padding-top:15px;
+	}
+	
+	.footer-contact-img{
+		display:inline-block;
+		max-height:20px;
+		
+	}
+	
+	/* --- Bootstrap clases --- */
+	
+	.socialicons {
+		height:25px;
+	}
+	
+	.page-header{ margin: 0; padding-top:10px; }
+	.navbar { 
+		margin: 0;   
+		-webkit-border-radius: 0 !important;
+     	-moz-border-radius: 0 !important;
+         border-radius: 0 !important;
+	}
+	
+
+
+
